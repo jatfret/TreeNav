@@ -1,0 +1,1357 @@
+{
+    "level1": [
+      {
+        "name": "首页",
+        "level2":[
+          {
+            "name": "头部应用",
+            "percent": "42.33%",
+            "level3":[
+              {
+                "name": "扫一扫",
+                "percent": "20.54%",
+                "level4": [
+                  {
+                    "name": "支付页面",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "收款",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "付款",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "红包",
+                    "percent": "4.32%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      },
+                      {
+                        "name": "摇一摇",
+                        "percent": "12.1%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "付款",
+                "percent": "20.54%",
+                "level4": [
+                  {
+                    "name": "扫一扫",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "口碑",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "支付页面",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "红包",
+                    "percent": "4.32%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "收款",
+                "percent": "3.90%",
+                "level4": [
+                  {
+                    "name": "支付页面",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "口碑",
+                    "percent": "5.47%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "亲情账号",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "卡包",
+                "percent": "2.13%",
+                "level4": [
+                  {
+                    "name": "口碑",
+                    "percent": "3.08%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "服务窗",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "付款",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "财务",
+            "percent": "4.06%",
+            "level3":[
+              {
+                "name": "转账",
+                "percent": "2.54%",
+                "level4": [
+                  {
+                    "name": "支付页面",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "收款",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "付款",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "红包",
+                    "percent": "4.32%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "余额宝",
+                "percent": "20.54%",
+                "level4": [
+                  {
+                    "name": "扫一扫",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "口碑",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "支付页面",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "红包",
+                    "percent": "4.32%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "信用卡还款",
+                "percent": "13.90%",
+                "level4": [
+                  {
+                    "name": "支付页面",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "口碑",
+                    "percent": "5.47%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "亲情账号",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "亲情账号",
+                "percent": "2.13%",
+                "level4": [
+                  {
+                    "name": "口碑",
+                    "percent": "3.08%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "服务窗",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "付款",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "社交",
+            "percent": "4.06%",
+            "level3":[
+              {
+                "name": "朋友",
+                "percent": "1.42%",
+                "level4": [
+                  {
+                    "name": "支付页面",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "收款",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "付款",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "红包",
+                    "percent": "4.32%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "通讯录",
+                "percent": "1.42%",
+                "level4": [
+                  {
+                    "name": "朋友",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "口碑",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "支付页面",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "红包",
+                    "percent": "4.32%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "账单",
+            "percent": "42.33%",
+            "level3":[
+              {
+                "name": "扫一扫",
+                "percent": "20.54%",
+                "level4": [
+                  {
+                    "name": "支付页面",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "收款",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "付款",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "红包",
+                    "percent": "4.32%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "付款",
+                "percent": "20.54%",
+                "level4": [
+                  {
+                    "name": "扫一扫",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "口碑",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "支付页面",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "红包",
+                    "percent": "4.32%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "收款",
+                "percent": "3.90%",
+                "level4": [
+                  {
+                    "name": "支付页面",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "口碑",
+                    "percent": "5.47%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "亲情账号",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "卡包",
+                "percent": "2.13%",
+                "level4": [
+                  {
+                    "name": "口碑",
+                    "percent": "3.08%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "服务窗",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "付款",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "红包",
+            "percent": "4.06%",
+            "level3":[
+              {
+                "name": "转账",
+                "percent": "2.54%",
+                "level4": [
+                  {
+                    "name": "支付页面",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "收款",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "付款",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "红包",
+                    "percent": "4.32%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "余额宝",
+                "percent": "20.54%",
+                "level4": [
+                  {
+                    "name": "扫一扫",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "口碑",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "支付页面",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "红包",
+                    "percent": "4.32%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "信用卡还款",
+                "percent": "13.90%",
+                "level4": [
+                  {
+                    "name": "支付页面",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "口碑",
+                    "percent": "5.47%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "亲情账号",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "亲情账号",
+                "percent": "2.13%",
+                "level4": [
+                  {
+                    "name": "口碑",
+                    "percent": "3.08%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "服务窗",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "付款",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "聊天",
+            "percent": "4.06%",
+            "level3":[
+              {
+                "name": "朋友",
+                "percent": "1.42%",
+                "level4": [
+                  {
+                    "name": "支付页面",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "收款",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "付款",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "红包",
+                    "percent": "4.32%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "通讯录",
+                "percent": "1.42%",
+                "level4": [
+                  {
+                    "name": "朋友",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "口碑",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "支付页面",
+                    "percent": "7.49%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "红包",
+                    "percent": "4.32%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "通讯录",
+                    "percent": "12.22%",
+                    "level5":[
+                      {
+                        "name": "支付页面",
+                        "percent": "3.59%"
+                      },
+                      {
+                        "name": "转账",
+                        "percent": "2.31%"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "登录"
+      },
+      {
+        "name": "注册"
+      },
+      {
+        "name": "引导页"
+      },
+      {
+        "name": "启动页"
+      }
+    ]
+}

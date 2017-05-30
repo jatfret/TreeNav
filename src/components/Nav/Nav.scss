@@ -1,0 +1,393 @@
+$level1BgColor: #ff7d67;
+$level1BdColor: #e3654f;
+$level2BgColor: #ffa95e;
+$level2BdColor: #ea9042;
+$level3BgColor: #64ccb1;
+$level3BdColor: #4cb499;
+$level4BgColor: #5ba8db;
+$level4BdColor: #4490c3;
+$level5BgColor: #6c85bd;
+$level5BdColor: #5770a7;
+$tooltipBgColor: #6a7181;
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  width:1080px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  .nav-header {
+    padding: 0 14px;
+    margin: 10px 0;
+    font-size: 14px;
+    overflow: hidden;
+    li{
+      float: left;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    .level {
+      width: 210px;
+      border-right: 1px dashed #e1e1e1;
+    }
+    .last-level {
+      border-right: none;
+    }
+  }
+  .nav-body {
+    position: relative;
+    padding: 20px 14px;
+    font-size: 12px;
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+    .level-col {
+      box-sizing: border-box;
+      width: 209px;
+    }
+    .level-col-first, .level-col-second {
+      float: left;
+    }
+    .level-col-third {
+      position: relative;
+      left: 208px;
+      top: -41px;
+    }
+    .level-second-item, .level-third-item {
+      position: relative;
+      border-left: 2px solid #e1e1e1;
+      &:first-child {
+        margin-top: 13px;
+      }
+      &:last-child {
+        border: none;
+        .level-col-forth{
+          top: -28px;
+        }
+      }
+    }
+    .level-second-item {
+      &.onpathV1 {
+        border-color: $level1BdColor;
+      }
+    }
+    .level-third-item {
+      &.onpathV2 {
+        border-color: $level2BdColor;
+      }
+    }
+    .level-col-forth,.level-col-fifth{
+      position: relative;
+      left: 208px;
+      top: -28px;
+    }
+    .level-forth-item, .level-fifth-item{
+
+    }
+    .level-forth-item {
+      position: relative;
+      border-left: 2px solid #e1e1e1;
+      &:last-child{
+        border: none;
+        .level-col-fifth{
+          top: -28px;
+        }
+      }
+      &.onpathV3 {
+        border-color: $level3BdColor;
+      }
+    }
+    .level-fifth-item {
+      position: relative;
+      padding-bottom: 15px;
+      border-left: 2px solid #e1e1e1;
+      &:last-child{
+        border: none;
+      }
+      &.onpathV4 {
+        border-color: $level4BdColor;
+      }
+    }
+      .level-third-item:last-child {
+        .level-forth-item:last-child{
+          // position: absolute;
+          // //bottom: -43px;
+          // //left: 25px;
+          // // .toggle-btn {
+          // //   left: 0;
+          // // }
+          .level-fifth-item:last-child {
+            position: absolute;
+            bottom: -43px;
+            left: 25px;
+            .toggle-btn {
+              left: 0;
+            }
+          }
+        }
+      }
+    .item-card {
+      position: relative;
+      margin: 0 auto;
+      width: 159px;
+      height: 28px;
+      line-height: 28px;
+      box-sizing: border-box;
+      color: #fff;
+      border-radius: 2px;
+      text-align: center;
+      cursor: pointer;
+      &.item-level1:first-child:after, &:not(.item-level1):before, &:not(.noborder-right):after {
+        content: "";
+        position: absolute;
+        top: 12px;
+        width: 25px;
+        height: 2px;
+        background: #e1e1e1;
+      }
+      &:before {
+        left: -26px;
+      }
+      &:after {
+        right: -26px;
+      }
+      &.item-level1.onpathHR1 {
+        &:after {
+          background:$level1BdColor;
+        }
+      }
+      &.onpathHL1 {
+        &:before {
+          background: $level1BdColor;
+        }
+      }
+      &.onpathHR2 {
+        &:after {
+          background: $level2BdColor;
+        }
+      }
+      &.onpathHL2 {
+        &:before {
+          background: $level2BdColor;
+        }
+      }
+      &.onpathHR3 {
+        &:after{
+          background: $level3BdColor;
+        }
+      }
+      &.onpathHL3 {
+        &:before {
+          background: $level3BdColor;
+        }
+      }
+      &.onpathHR4 {
+        &:after {
+          background: $level4BdColor;
+        }
+      }
+      &.onpathHL4 {
+        &:before {
+          background: $level4BdColor;
+        }
+      }
+      .card-name{
+        display: inline-block;
+        width: 126px;
+        height: 26px;
+        text-align: center;
+      }
+      .card-icon {
+        display: inline-block;
+        width: 30px;
+        height: 26px;
+        border-left: 1px dashed #e89144;
+        .icon {
+          display: inline-block;
+          width: 15px;
+          height: 15px;
+          line-height: 15px;
+          border-radius: 50%;
+          border: 1px solid #fff;
+        }
+      }
+      .card-icon-level2{
+        border-color: $level2BdColor;
+        &:hover {
+          background: $level2BdColor;
+        }
+      }
+      .card-icon-level2{
+        border-color: $level2BdColor;
+        &:hover {
+          background: $level2BdColor;
+        }
+      }
+      .card-icon-level3{
+        border-color: $level3BdColor;
+        &:hover {
+          background: $level3BdColor;
+        }
+      }
+      .card-icon-level4{
+        border-color: $level4BdColor;
+        &:hover {
+          background: $level4BdColor;
+        }
+      }
+      .card-icon-level5{
+        border-color: $level5BdColor;
+        &:hover {
+          background: $level5BdColor;
+        }
+      }
+    }
+
+    .item-level1 {
+      background: $level1BgColor;
+      border: 1px solid $level1BdColor;
+      margin-bottom: 48px;
+    }
+    .item-level2 {
+      top: -13px;
+      background: $level2BgColor;
+      border: 1px solid $level2BdColor;
+    }
+    .item-level3 {
+      top: -13px;
+      background: $level3BgColor;
+      border: 1px solid $level3BdColor;
+    }
+    .item-level4 {
+      top: -13px;
+      background: $level4BgColor;
+      border: 1px solid $level4BdColor;
+    }
+    .item-level5 {
+      top: -13px;
+      background: $level5BgColor;
+      border: 1px solid $level5BdColor;
+    }
+    .toggle-btn {
+      position: absolute;
+      left: 25px;
+      top: 26px;
+      border: none;
+      width: 80px;
+      padding: 0;
+      background: #fff;
+      text-align: left;
+      outline: none;
+      cursor: pointer;
+      &:before {
+        content: "";
+        position: absolute;
+        top: -24px;
+        left: -25px;
+        width: 23px;
+        height: 36px;
+        border-left: 2px dashed #e1e1e1;
+        border-bottom: 2px dashed #e1e1e1;
+      }
+    }
+    .toggle-icon {
+      position: relative;
+      top: 4px;
+      display: inline-block;
+      margin-right: 6px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+    }
+    .toggle-level3 {
+      background: $level3BgColor;
+    }
+    .toggle-level4 {
+      background: $level4BgColor;
+    }
+    .toggle-level5 {
+      background: $level5BgColor;
+    }
+    .triangle {
+      position: absolute;
+      left: 5px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+    }
+    .triangle-up{
+      top: 6px;
+      border-width: 0 4px 5px 4px;
+      border-color: transparent transparent #fff transparent;
+    }
+    .triangle-down {
+      top: 7px;
+      border-width: 5px 4px 0 4px;
+      border-color: #fff transparent transparent transparent;
+    }
+    .toggle-level3-icon {
+      background: #64ccb1;
+    }
+  }
+}
+.tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 186px;
+  background: $tooltipBgColor;
+  color: #fff;
+  padding: 10px;
+  opacity: 0.9;
+  border-radius: 4px;
+  display: none;
+  &:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  &.triangle-top:after {
+    top: 28px;
+
+  }
+  &.triangle-left:after {
+    left: -6px;
+    border-width: 8px 8px 8px 0;
+    border-color: transparent $tooltipBgColor transparent  transparent;
+  }
+  &.triangle-right:after {
+    right: -6px;
+    border-width: 8px 0 8px 8px;
+    border-color: transparent transparent transparent $tooltipBgColor;
+  }
+  &.triangle-bottom:after {
+    bottom: 30px;
+  }
+  .hoverContent{
+    h3 {
+      margin-top: 6px;
+      margin-bottom: 0;
+      font-weight: normal;
+      font-size: 14px;
+    }
+    p{
+      margin: 12px 0;
+      font-size: 12px;
+    }
+    .label {
+      color: #b4c4d3;
+    }
+    .value {
+      float: right;
+    }
+  }
+  img {
+    width: 186px;
+    height: 332px;
+  }
+}
