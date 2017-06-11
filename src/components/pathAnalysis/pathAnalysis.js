@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Highcharts from '../../lib/highcharts.min';
 
 export default class pathAnalysis extends React.Component {
   constructor(props){

@@ -30,6 +30,9 @@ app.get('/api/comments.json', function(req, res) {
 app.get('/api/nav', function(req, res){
   res.sendFile(path.join(__dirname, '/api/nav.json'));
 });
+app.get('/api/path_data', function(req, res){
+  res.sendFile(path.join(__dirname, '/api/pathData.json'));
+});
 
 app.get('*', function(req, res){
   res.sendFile(path.join(__dirname,'index.html'));
