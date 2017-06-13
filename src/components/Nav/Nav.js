@@ -140,11 +140,17 @@ class Level2Col extends React.Component {
                     e.stopPropagation();
 
                     let cardRect = { left: 0, top: 0 };
-                    //onHoverTooltip(cardRect, null, false);
+                    onHoverTooltip(cardRect, null, false);
                   }}
                 ><span className="icon">i</span></span>
               </div>
-                <Level3Col level3={level2Item.level3} collapseAll={collapseAll} orderTree={orderLeve2} orderSelected={orderSelected} onHoverChangeColor={onHoverChangeColor} onHoverTooltip={onHoverTooltip}/>
+                <Level3Col
+                  level3={level2Item.level3}
+                  collapseAll={collapseAll}
+                  orderTree={orderLeve2}
+                  orderSelected={orderSelected}
+                  onHoverChangeColor={onHoverChangeColor}
+                  onHoverTooltip={onHoverTooltip}/>
             </li>
           )
         })}
@@ -210,7 +216,13 @@ class Level3Col extends React.Component {
                 :
                 null
               }
-              <Level4Col level4={level3Item.level4} collapseAll={collapseAll} orderTree={orderLevel3} orderSelected={orderSelected} onHoverChangeColor={onHoverChangeColor} onHoverTooltip={onHoverTooltip}/>
+              <Level4Col
+                level4={level3Item.level4}
+                collapseAll={collapseAll}
+                orderTree={orderLevel3}
+                orderSelected={orderSelected}
+                onHoverChangeColor={onHoverChangeColor}
+                onHoverTooltip={onHoverTooltip}/>
             </li>
           )
         })}
@@ -276,7 +288,13 @@ class Level4Col extends React.Component {
                 :
                 null
               }
-              <Level5Col level5={level4Item.level5} collapseAll={collapseAll} orderTree={orderLevel4} orderSelected={orderSelected}  onHoverChangeColor={onHoverChangeColor} onHoverTooltip={onHoverTooltip} />
+              <Level5Col
+                level5={level4Item.level5}
+                collapseAll={collapseAll}
+                orderTree={orderLevel4}
+                orderSelected={orderSelected}
+                onHoverChangeColor={onHoverChangeColor}
+                onHoverTooltip={onHoverTooltip} />
             </li>
           )
         })}
