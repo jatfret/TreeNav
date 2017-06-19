@@ -386,7 +386,7 @@ class Tooltip extends React.Component {
       top: 0
     };
     if(cardRect && wrapRect && isTooltipVisible){
-      left = cardRect.left + cardRect.width + window.pageXOffset;
+      left = cardRect.right + wrapRect.left;
       top= cardRect.top - wrapRect.top - 24;
       position = {
         top,

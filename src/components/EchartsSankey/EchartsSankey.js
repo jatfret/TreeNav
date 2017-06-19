@@ -56,15 +56,13 @@ export default class EchartsSankey extends React.Component {
 	                	formatter: function(params){
 	                		console.log(params);
 	                		if(params.dataType === 'node'){
-	                			return `<p style="font-size: 14px; color: #fff; width: 188px;">${params.data.name.replace(/to|from/g, "")}</p>\
-	                					<p style="font-size: 12px;">渗透率：${params.value.shentou}%</p>\
-	                					<p style="font-size: 12px;">当前功能使用人数：${params.value.num}人</p>\
-	                					<p style="font-size: 12px;">产品总使用人数：${params.value.totalNum}人</p>
-	                					${params.data.value.src ? '<img src="/images/pic.png" style="width: 100%"/>' : ''}`
+	                			return `<p style="font-size: 14px; color: #fff; width: 188px;">${params.data.tooltipData.source.replace(/from|to/g, "")}</p>\
+		                				<p style="font-size: 12px;">流向${params.data.tooltipData.target.replace(/to|from/g, "")}占比：${params.data.tooltipData.value}%</p>\
+		                				<p style="font-size: 12px;">流向${params.data.tooltipData.target.replace(/to|from/g, "")}人数：${params.data.tooltipData.usernum}人</p>`
 	                		}else if(params.dataType === 'edge'){
 		                		return `<p style="font-size: 14px; color: #fff; width: 188px;">${params.data.source.replace(/from|to/g, "")}</p>\
-		                				<p style="font-size: 12px;">流入${params.data.target.replace(/to|from/g, "")}占比：${params.data.value}%</p>\
-		                				<p style="font-size: 12px;">流入${params.data.target.replace(/to|from/g, "")}人数：${params.data.usernum}人</p>`;
+		                				<p style="font-size: 12px;">流向${params.data.target.replace(/to|from/g, "")}占比：${params.data.value}%</p>\
+		                				<p style="font-size: 12px;">流向${params.data.target.replace(/to|from/g, "")}人数：${params.data.usernum}人</p>`;
 	                		}
 	                	}
 	                },
@@ -96,11 +94,6 @@ export default class EchartsSankey extends React.Component {
 		if(pathData){
 			chartData.nodes.push({
 				name: pathData.data.name,
-				value: {
-					totalNum: 2325435,
-					num: 1342,
-					shentou: 20,
-				},
 				itemStyle: {
 					normal: {
 						position: 'inside',
@@ -112,18 +105,21 @@ export default class EchartsSankey extends React.Component {
 						position: 'inside',
 						textStyle: {
 	            			color: '#fff'
-	            		}	
+	            		}
 					}
+				},
+				tooltip: {
+					show: false
 				}
 			});
 			pathData.data.from.map(f=>{
 				chartData.nodes.push({
 					name: f.name,
-					value: {
-						totalNum: 2325435,
-						num: 1342,
-						shentou: 20,
-						src: true
+					tooltipData: {
+						source: f.name,
+						target: pathData.data.name,
+						value: f.value,
+						usernum: 3234,
 					},
 					itemStyle: {
 						normal: {
@@ -138,7 +134,7 @@ export default class EchartsSankey extends React.Component {
 							position: 'left',
 							textStyle: {
 		            			color: '#6a7181'
-		            		}	
+		            		}
 						}
 					}
 				});
@@ -157,10 +153,11 @@ export default class EchartsSankey extends React.Component {
 			pathData.data.to.map(t=>{
 				chartData.nodes.push({
 					name: t.name,
-					value: {
-						totalNum: 2325435,
-						num: 1342,
-						shentou: 20,
+					tooltipData: {
+						source: t.name,
+						target: pathData.data.name,
+						value: t.value,
+						usernum: 3234,
 					},
 					itemStyle: {
 						normal: {
@@ -199,15 +196,15 @@ export default class EchartsSankey extends React.Component {
 		return (
 			<div>
 				{
-					this.state.isFetching 
-					? 
+					this.state.isFetching
+					?
 					<h3>Loading...</h3>
 					:
 					<div className="chart-wrap">
 						<SankeyChart options={this.getChartOptions()}/>
 					</div>
 				}
-			</div>	
+			</div>
 		)
 	}
 }
@@ -215,7 +212,7 @@ export default class EchartsSankey extends React.Component {
 class SankeyChart extends React.Component {
 	constructor(props) {
 		super(props);
-		
+
 	}
 	componentDidMount() {
 		let { options } = this.props;
